@@ -1,0 +1,3 @@
+Contexto:
+- Teorização (mutável)
+- Observação (imutável) pode ser mutavel também talvez

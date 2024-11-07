@@ -1,0 +1,286 @@
+
+/* Geral */
+body{
+    font-family: "Helvetica", Sans-Serif;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+hr{
+    border: none;
+    height: 0.16vw;
+    border-radius: 100px;
+    background-color: #9c9c9c;
+}
+
+
+
+
+
+/* Main Structure */
+#content{
+    position: absolute;
+    background: #ffffff;
+    top: 0px;
+    left: 12%;
+    right: 12%;
+    z-index: 1;
+    color:#3d3d3d;
+    transition: transform 0.3s;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 6%;
+    height: 100%;
+    border-right: #9c9c9c 0.2vw solid;
+    border-top-right-radius: 4vw;
+    border-bottom-right-radius: 4vw;
+    background-color: #e0e0e0;
+    transition: transform 0.3s;
+    z-index: 1;
+}
+
+#sidebarB {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    width: 6%;
+    height: 100%;
+    border-left: #9c9c9c 0.2vw solid;
+    border-top-left-radius: 4vw;
+    border-bottom-left-radius: 4vw;
+    background-color: #e0e0e0;
+    transition: transform 0.3s;
+    z-index: 1;
+}
+
+
+
+
+
+/* Content Structure */
+#main-title {
+    text-align:center;
+    margin-bottom:2%;
+    margin-top:3%;
+    font-size: 36px;
+}
+
+#main-subtitle {
+    text-align:center;
+    margin-top:-2%;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.title{
+    margin-bottom: 4%;
+}
+
+.subtitle{
+    margin-bottom: 2%;
+    margin-top: -3%;
+    font-size: larger;
+}
+
+.author{
+    margin-bottom: 2%;
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: 600 !important;
+}
+
+header{
+    text-align: center;
+    margin-top: 6%;
+}
+
+#bottom{
+    font-size: 15px;
+}
+
+.post-metadata{
+    font-size: 90%;
+    color: #9c9c9c;
+}
+
+.tags-links{
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.comments{
+    text-transform: capitalize;
+    font-style: normal;
+    position: absolute;
+    right: 10%;
+}
+
+footer{
+    font-size: 90%;
+    color: #969696;
+    margin-bottom: 0.5%;
+    margin-top: 5%;
+}
+
+article{
+    text-align: justify;
+    margin-left: 10%; 
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 3%; 
+}
+
+.style{
+    font-weight: 600 !important;
+    position: absolute;
+    right: 10%;
+}
+
+#final{
+    text-align: center;
+    font-weight: 600;
+}
+
+#final:hover{
+    color: #9c9c9c;
+    cursor: pointer;
+}
+
+.midlle-hr{
+    height: 0.05vw;
+    margin-left:7%;
+    margin-right:7%;
+}
+
+.top-hr{
+    margin-left:25%;
+    margin-right:25%;
+}
+
+
+
+
+
+
+/* SidebarB Structure */
+#circleB{
+    position: absolute;
+    top: 5%;
+    width: 65%;
+    left: 18.5%;
+    transition: transform 0.3s;
+}
+
+
+
+
+
+
+
+/* Sidebar Structure */
+#circle{
+    position: absolute;
+    top: 5%;
+    width: 65%;
+    left: 18.5%;
+    transition: transform 0.3s;
+}
+
+#settings{
+    position: absolute;
+    top: 88%;
+    width: 45%;
+    left: 28.5%;
+    transition: transform 0.3s;
+}
+
+#home{
+    position: absolute;
+    top: 23%;
+    width: 35%;
+    left: 18%;
+    padding: 0.9vw;
+    border-radius: 1vw;
+}
+#home:hover{
+    background-color: #ffffff;
+}
+
+#archive{
+    position: absolute;
+    top: 38%;
+    width: 43%;
+    left: 19%;
+    padding: 0.55vw;
+    border-radius: 1vw;
+}
+#archive:hover{
+    background-color: #ffffff;
+}
+
+#chat{
+    position: absolute;
+    top: 54%;
+    width: 37%;
+    left: 17%;
+    padding: 0.9vw;
+    border-radius: 1vw;
+}
+#chat:hover{
+    background-color: #ffffff;
+}
+
+#private{
+    position: absolute;
+    top: 68%;
+    width: 40%;
+    left: 16%;
+    padding: 0.8vw;
+    border-radius: 1vw;
+}
+#private:hover{
+    background-color: #ffffff;
+}
+
+.hr-top{
+    position: absolute;
+    height: 0.2vw;
+    background-color: #9c9c9c;
+    border-radius: 100px;
+    top: 18%;
+    left: 22%;
+    right: 22%;
+}
+
+.hr-bottom{
+    position: absolute;
+    height: 0.2vw;
+    background-color: #9c9c9c;
+    border-radius: 100px;
+    top: 83%;
+    left: 22%;
+    right: 22%;
+}
+
+
+
+
+
+/* Internal Links */
+a:link{
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+a:hover{
+    color: #9c9c9c;
+}
+
